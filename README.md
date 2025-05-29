@@ -1,4 +1,5 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=0:00BFFF,100:8A2BE2&height=250&section=header&text=Hey,%20I'm%20Jacob%20%F0%9F%91%8B&fontSize=70)
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:1E90FF,100:8000FF&height=250&section=header&text=Hey,%20I'm%20Jacob%20%F0%9F%91%8B&fontSize=70)
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jakub-hluško-639202366/" target="_blank">
@@ -12,7 +13,7 @@
   </a>
 </p>
 
-<h1 align="center">Hi 👋, I'm Jacob (Jakub)</h1>
+<h1 align="center">Hi 👋, I'm Jakub</h1>
 <h3 align="center">💻 18 y/o IT student focused on backend development</h3>
 
 ---
