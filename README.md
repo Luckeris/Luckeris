@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FFFFFF&height=200&section=header&text=Jakub&desc=Backend%20developer%20and%20IoT%20engineer&fontSize=70&descSize=30&fontColor=000000" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3D5AFE,100:E040FB&height=250&section=header&text=Jakub&desc=Backend%20developer%20and%20IoT%20engineer&fontSize=60&descSize=30&fontColor=FFFFFF" />
 </p>
+
 
 
 
