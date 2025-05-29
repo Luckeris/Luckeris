@@ -4,10 +4,10 @@
     <img height="40" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" alt="LinkedIn"/>
   </a>
   <a href="https://www.instagram.com/hlusakkk/" target="_blank">
-    <img height="40" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/Instagram-512.png" alt="Instagram"/>
+    <img height="40" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png" alt="Instagram"/>
   </a>
   <a href="https://github.com/Luckeris" target="_blank">
-    <img height="40" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/Github-512.png" alt="GitHub"/>
+    <img height="40" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png" alt="GitHub"/>
   </a>
 </p>
 
