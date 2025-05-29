@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3D5AFE,100:E040FB&height=200&section=header&text=Jacob&desc=Backend%20developer%20and%20IoT%20Engineer&fontSize=70&descSize=30&fontColor=000000" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3D5AFE,100:E040FB&height=250&section=header&text=Jacob&fontSize=70&fontColor=000000&textBg=true&textBgRadius=20&desc=Backend%20developer%20and%20IoT%20Engineer&descSize=25&descAlign=bottom&descAlignY=40" />
 </p>
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jakub-hluško-639202366/" target="_blank">
