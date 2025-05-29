@@ -16,7 +16,7 @@
   </a>
 </p>
 
-<h1 align="center">Hi 👋, I'm Jakub</h1>
+<h1 align="center">Hi 👋, I'm Jacob</h1>
 <h3 align="center">💻 18 y/o IT student focused on backend development</h3>
 
 ---
