@@ -2,14 +2,41 @@
 <a href="https://www.instagram.com/hlusakkk/">
   <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png"/>
 </a>
-### 🛠️ Tech Stack
+<a href="https://www.instagram.com/hlusakkk/">
+  <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png"/>
+</a>
+<h1 align="center">Hi 👋, I'm Jacob (Jakub)</h1>
+<h3 align="center">💻 18 y/o IT student focused on backend development</h3>
 
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
-![FastAPI](https://img.shields.io/badge/-FastAPI-005571?style=flat&logo=fastapi)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)
-![ESP32](https://img.shields.io/badge/-ESP32-333333?style=flat&logo=espressif)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)
+---
+
+### 🧠 About Me
+- 🔭 I’m currently learning **Python**, **FastAPI**, and working with **ESP32**
+- 🧠 Interested in backend APIs, IoT and automation
+- 💡 Always improving my skills and building useful projects
+- ⚙️ My current stack: Python, FastAPI, Flask, Docker, Git
+### 🛠️ Tech Stack
+<p>
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python" alt="Python" />
+  </a>
+  <a href="https://fastapi.tiangolo.com" target="_blank">
+    <img src="https://img.shields.io/badge/-FastAPI-005571?style=flat&logo=fastapi" alt="FastAPI" />
+  </a>
+  <a href="https://flask.palletsprojects.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask" alt="Flask" />
+  </a>
+  <a href="https://www.docker.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker" alt="Docker" />
+  </a>
+  <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank">
+    <img src="https://img.shields.io/badge/-ESP32-333333?style=flat&logo=espressif" alt="ESP32" />
+  </a>
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git" alt="Git" />
+  </a>
+</p>
+
 
 
 <!--
