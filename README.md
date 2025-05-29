@@ -21,12 +21,9 @@
 
 ---
 
-### 🧠 About Me
-- 🔭 I’m currently learning **Python**, **FastAPI**, and working with **ESP32**
-- 🧠 Interested in backend APIs, IoT and automation
-- 💡 Always improving my skills and building useful projects
-- ⚙️ My current stack: Python, FastAPI, Flask, Docker, Git
+
 ### 🛠️ Tech Stack
+Current stack: Python, FastAPI, Flask, Docker, Git
 <p>
   <a href="https://www.python.org" target="_blank">
     <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python" alt="Python" />
