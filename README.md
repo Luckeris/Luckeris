@@ -19,6 +19,9 @@
 <h1 align="center">Hi 👋, I'm Jacob</h1>
 <h3 align="center">💻 18 y/o IT student focused on backend development</h3>
 
+###What do I do❓
+Focusing on APIs, backend, AI, machine learning, neural networks and IoT!
+
 ---
 
 
