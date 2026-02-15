@@ -19,7 +19,6 @@
 
 ### 🧠 About Me
 - 📖 Currently studying at SOUs Škoda Auto a.s. for Computer Science and Electrical Engineering.
-- 🔭 I’m currently working on RaspberryPi Smart Camera and my own website portfolio.
 - 🧠 Interested in backend APIs, IoT and automation.
 - 💡 Worked on several projects in the past like: ESP32-Wake-on-Lan, ESP-Thread-Border-Router, My Own Portfolio, FrequencyDetector in Arduino or RaspberryPi Smart Camera.
 - ⚙️ Im confident in Python and FastAPI, which is also in my main stack.
