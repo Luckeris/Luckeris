@@ -1,5 +1,5 @@
 # 💫 About Me:
-⚡I love to help people and learn things.<br>💻I develop web and software apps based to help you in your everyday life.<br>👥I would like to colaborate on anything you want, just contact me!<br>🔭Currently working on my own app to organize my life.
+⚡I love to help people and learn things.<br>💻I develop web and software apps based to help you in your everyday life.<br>👥I would like to colaborate on anything you want, just contact me!<br>
 
 
 ## 🌐 Socials:
