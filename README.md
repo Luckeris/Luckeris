@@ -6,13 +6,9 @@ I work mostly with **Python** and **C#**, and I’m currently learning **Go**.
 
 Currently building: **Star** — a simpler, easier-to-use git-style tool.
 
-I use AI in my workflow, then review, debug, and improve the output to make sure the code is correct and clean.
+I use AI in my workflow, then review, debug, and refine the output to keep the code clean and correct.
 
-I love to play video games and hang out.
-
-Currently working on buying a MacBook.
-
-If you wanna build something, feel free to hit me up, i'd love to learn some common practices and to work in a team.
+If you wanna build something, feel free to hit me up.
 
 # Stack:
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
