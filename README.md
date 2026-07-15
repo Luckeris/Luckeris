@@ -10,7 +10,7 @@ I use AI in my workflow, then review, debug, and refine the output to keep the c
 
 If you wanna build something, feel free to hit me up.
 
-![Terminal GIF](https://raw.githubusercontent.com/luckeris/gif-terminal/main/output.gif)
+![Terminal GIF](https://raw.githubusercontent.com/Luckeris/gif-terminal/main/output.gif)
 
 
 # Stack:
