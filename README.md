@@ -57,8 +57,6 @@
 
 <div align="center">
 
-### 🐍 Contribution Snake (animovaný commit graf)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luckeris/luckeris/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luckeris/luckeris/output/github-contribution-grid-snake.svg" />
@@ -70,9 +68,6 @@
 <br/>
 
 <div align="center">
-
-### 📊 Terminal Stats
-
 <img src="https://github-readme-stats.vercel.app/api?username=luckeris&show_icons=true&theme=synthwave&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=luckeris&theme=synthwave&hide_border=true" alt="GitHub Streak" height="165"/>
 
