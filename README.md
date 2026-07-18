@@ -19,7 +19,7 @@
 
 ```
 
-┌──(guest㉿github)-[~]
+┌──(Luckeris㉿github)-[~]
 └─$ fastfetch --photo me.jpg
 
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒▒▓▓▒▒░░░░░▒▓███▓▓▓   Luckeris@github
