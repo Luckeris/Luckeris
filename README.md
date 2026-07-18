@@ -53,8 +53,6 @@
 
 ```
 
-<br/>
-
 <div align="center">
 
 <picture>
@@ -65,7 +63,6 @@
 
 </div>
 
-<br/>
 
 <div align="center">
 <img src="./profile/streak.svg" alt="GitHub Streak" height="165"/>
@@ -76,27 +73,18 @@
 
 </div>
 
-<br/>
 
 <div align="center">
-
-### 🛠️ Tech Stack
 
 <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,cs,dotnet,docker,git,linux,vscode,figma&theme=dark" alt="tech stack icons" />
 
 </div>
 
-<br/>
-
 <div align="center">
-
-### 🌐 Connect
-
 <a href="https://linkedin.com/in/jakub-hluško-639202366/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:hluskojakub@eoutlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://luckeris.github.io/portfolio"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 
-<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=luckeris&style=for-the-badge&color=00FF9C&label=PROFILE+VIEWS" alt="profile views" />
 
