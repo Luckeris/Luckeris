@@ -10,7 +10,7 @@
 
 <!-- Animovaný psací nadpis -->
 <a href="https://github.com/luckeris">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=%24+whoami;Jakub+Hluško;Student+&+Developer;Welcome+to+my+terminal+~" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=%24+whoami;Jakub+Hlusko;Student+Developer;Welcome+to+my+terminal+~" alt="Typing SVG" />
 </a>
 
 </div>
