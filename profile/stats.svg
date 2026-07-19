@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
-            fill: #e2e9ec;
+            fill: #39ff9c;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #e5289e;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #d6ffe9;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e5289e;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #d6ffe9;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #ef8539;
+      fill: #39ff9c;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #e2e9ec;
+      stroke: #39ff9c;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #e2e9ec;
+      stroke: #39ff9c;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -77,7 +77,7 @@
         stroke-dashoffset: 251.33;
       }
       to {
-        stroke-dashoffset: 244.93;
+        stroke-dashoffset: 244.73;
       }
     }
   
@@ -139,9 +139,9 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="#1a2b22"
           width="466"
-          fill="#2b213a"
+          fill="#060807"
           stroke-opacity="0.0"
         />
 
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >54</text>
+      >56</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
