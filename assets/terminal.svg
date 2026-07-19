@@ -3,13 +3,13 @@
   <clipPath id="cmdClip"><rect id="cmdClipRect" x="0" y="0" width="0" height="20"/></clipPath>
   <clipPath id="asciiClip"><rect id="asciiClipRect" x="0" y="0" width="0" height="347.2"/></clipPath>
   <linearGradient id="chromeGrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#2b2640"/>
-    <stop offset="1" stop-color="#201c30"/>
+    <stop offset="0" stop-color="#161b22"/>
+    <stop offset="1" stop-color="#10141a"/>
   </linearGradient>
 </defs>
 <style>
-  .bg { fill:#14111f; }
-  .win { fill:#100d19; stroke:#332e4d; stroke-width:1; }
+  .bg { fill:#0d1117; }
+  .win { fill:#0d1117; stroke:#21262d; stroke-width:1; }
   .ascii { fill:#00FF9C; font-size:11px; white-space:pre; }
   .k { fill:#ff7ac6; font-size:13px; }
   .v { fill:#d8d8f0; font-size:13px; }
@@ -60,72 +60,80 @@
   .info1 { opacity:0; animation: info1fade 10.0s linear infinite; }
   @keyframes info1fade {
     0% { opacity:0; }
-    34.4% { opacity:0; }
-    36.4% { opacity:1; }
+    34.2% { opacity:0; }
+    36.2% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info2 { opacity:0; animation: info2fade 10.0s linear infinite; }
   @keyframes info2fade {
     0% { opacity:0; }
-    36.8% { opacity:0; }
-    38.8% { opacity:1; }
+    36.4% { opacity:0; }
+    38.4% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info3 { opacity:0; animation: info3fade 10.0s linear infinite; }
   @keyframes info3fade {
     0% { opacity:0; }
-    39.2% { opacity:0; }
-    41.2% { opacity:1; }
+    38.5% { opacity:0; }
+    40.5% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info4 { opacity:0; animation: info4fade 10.0s linear infinite; }
   @keyframes info4fade {
     0% { opacity:0; }
-    41.6% { opacity:0; }
-    43.6% { opacity:1; }
+    40.7% { opacity:0; }
+    42.7% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info5 { opacity:0; animation: info5fade 10.0s linear infinite; }
   @keyframes info5fade {
     0% { opacity:0; }
-    44.0% { opacity:0; }
-    46.0% { opacity:1; }
+    42.9% { opacity:0; }
+    44.9% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info6 { opacity:0; animation: info6fade 10.0s linear infinite; }
   @keyframes info6fade {
     0% { opacity:0; }
-    46.4% { opacity:0; }
-    48.4% { opacity:1; }
+    45.1% { opacity:0; }
+    47.1% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info7 { opacity:0; animation: info7fade 10.0s linear infinite; }
   @keyframes info7fade {
     0% { opacity:0; }
-    48.8% { opacity:0; }
-    50.8% { opacity:1; }
+    47.3% { opacity:0; }
+    49.3% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info8 { opacity:0; animation: info8fade 10.0s linear infinite; }
   @keyframes info8fade {
     0% { opacity:0; }
-    51.2% { opacity:0; }
-    53.2% { opacity:1; }
+    49.5% { opacity:0; }
+    51.5% { opacity:1; }
     100% { opacity:1; }
   }
 
   .info9 { opacity:0; animation: info9fade 10.0s linear infinite; }
   @keyframes info9fade {
     0% { opacity:0; }
-    53.6% { opacity:0; }
-    55.6% { opacity:1; }
+    51.6% { opacity:0; }
+    53.6% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info10 { opacity:0; animation: info10fade 10.0s linear infinite; }
+  @keyframes info10fade {
+    0% { opacity:0; }
+    53.8% { opacity:0; }
+    55.8% { opacity:1; }
     100% { opacity:1; }
   }
 
@@ -174,7 +182,7 @@
 </text></g></g>
 <g transform="translate(516.5999999999999,116)">
 <text class="k info_header" y="12" font-size="14" fill="#00FF9C">Luckeris@github</text>
-<line x1="0" y1="20" x2="230" y2="20" stroke="#332e4d" stroke-width="1"/>
+<line x1="0" y1="20" x2="230" y2="20" stroke="#21262d" stroke-width="1"/>
 <g class="info0"><text y="41"><tspan class="k">OS: </tspan><tspan class="v">Human.exe</tspan></text></g>
 <g class="info1"><text y="62"><tspan class="k">Host: </tspan><tspan class="v">Planet Earth</tspan></text></g>
 <g class="info2"><text y="83"><tspan class="k">Role: </tspan><tspan class="v">Student &amp; Developer</tspan></text></g>
@@ -183,16 +191,17 @@
 <g class="info5"><text y="146"><tspan class="k">Tools: </tspan><tspan class="v">Git, Docker</tspan></text></g>
 <g class="info6"><text y="167"><tspan class="k">Editor: </tspan><tspan class="v">VS Code</tspan></text></g>
 <g class="info7"><text y="188"><tspan class="k">Location: </tspan><tspan class="v">Prague, CZ</tspan></text></g>
-<g class="info8"><text y="209"><tspan class="k">Currently: </tspan><tspan class="v">Building cool stuff</tspan></text></g>
-<g class="info9"><text y="230"><tspan class="k">Contact: </tspan><tspan class="v">kluskojakub@outlook.com</tspan></text></g>
-<rect class="info9" x="0" y="257" width="13" height="13" rx="2" fill="#ff5f57"/>
-<rect class="info9" x="17" y="257" width="13" height="13" rx="2" fill="#28c840"/>
-<rect class="info9" x="34" y="257" width="13" height="13" rx="2" fill="#febc2e"/>
-<rect class="info9" x="51" y="257" width="13" height="13" rx="2" fill="#5b8cff"/>
-<rect class="info9" x="68" y="257" width="13" height="13" rx="2" fill="#c86bff"/>
-<rect class="info9" x="85" y="257" width="13" height="13" rx="2" fill="#ff7ac6"/>
-<rect class="info9" x="102" y="257" width="13" height="13" rx="2" fill="#3a3550"/>
-<rect class="info9" x="119" y="257" width="13" height="13" rx="2" fill="#e8e8f5"/>
+<g class="info8"><text y="209"><tspan class="k">Uptime: </tspan><tspan class="v">1+ years of coding</tspan></text></g>
+<g class="info9"><text y="230"><tspan class="k">Currently: </tspan><tspan class="v">Building Star VCS</tspan></text></g>
+<g class="info10"><text y="251"><tspan class="k">Contact: </tspan><tspan class="v">hluskojakub@outlook.com</tspan></text></g>
+<rect class="info10" x="0" y="278" width="13" height="13" rx="2" fill="#ff5f57"/>
+<rect class="info10" x="17" y="278" width="13" height="13" rx="2" fill="#28c840"/>
+<rect class="info10" x="34" y="278" width="13" height="13" rx="2" fill="#febc2e"/>
+<rect class="info10" x="51" y="278" width="13" height="13" rx="2" fill="#5b8cff"/>
+<rect class="info10" x="68" y="278" width="13" height="13" rx="2" fill="#c86bff"/>
+<rect class="info10" x="85" y="278" width="13" height="13" rx="2" fill="#ff7ac6"/>
+<rect class="info10" x="102" y="278" width="13" height="13" rx="2" fill="#3a3550"/>
+<rect class="info10" x="119" y="278" width="13" height="13" rx="2" fill="#e8e8f5"/>
 </g>
 <text x="24" y="495.2" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan></text>
 <rect class="cursor2" x="46" y="483.2" width="7" height="14" fill="#00FF9C"/>
