@@ -1,14 +1,5 @@
-<!--
-  ✏️  EDIT ME PŘED PUBLIKACÍ:
-  1) Nahraď "yourusername" (odkazy + badges) svým GitHub uživatelským jménem.
-  2) Uprav sekci "guest@github" v terminálovém bloku (jméno, role, stack, kontakt).
-  3) Nahraď odkazy na LinkedIn / web / e-mail v patičce.
-  4) Pro animovaný "had" na commit grafu nastav GitHub Action – návod je níže.
--->
-
 <div align="center">
 
-<!-- Animovaný psací nadpis -->
 <a href="https://github.com/luckeris">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=%24+whoami;Jakub+Hlusko;Student+Developer;Welcome+to+my+terminal+~" alt="Typing SVG" />
 </a>
@@ -17,41 +8,11 @@
 
 <br/>
 
-```
+<div align="center">
 
-┌──(Luckeris㉿github)-[~]
-└─$ fastfetch --photo me.jpg
+<img src="./assets/terminal.svg" alt="animated terminal card" width="790"/>
 
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒▒▓▓▒▒░░░░░▒▓███▓▓▓   Luckeris@github
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▒▒▒▒░░░░░░░░░░░░▒▒▒▒▓▓▒░░░░░░▒▓██▓▓▓▓   ─────────────────
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▒▓▓████████▓▓▒░░░░░░░░▒▒▒▒▓▒░░░░░░▒▓██▓▓▓▓   OS: Human.exe
-▒▒▒▒▒▒▒▒▒▒▒░░░░░░░▒▓██████████████▓▓▒░░░░░▒▒▒▒▓▒░░░░░░▒▓██▓▓▓▓   Host: Planet Earth
-▒▒▒▒▒▒▒▒░░░░░░░░▒███████████▓▓▓▒▒▓▓▓▓▓░░░░▒▒▒▒▓▒░░░░░░▒▓██▓▓▓▓   Role: Student & Developer
-▒▒▒▒▒▒▒░░░░░░░░░▓████████▓▓▓▓▒▒▒░░░░▒▓▓░░░░▒▒▒▓▒░░░░░░▒▓██▓▓▓▓   Languages: Python, C#, Go
-▒▒▒▒▒░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒░░░░░▒▒░░░▒▒▒▒▒░░░░░░▒▓██▓▓▓▓   Frameworks: React, Node, .NET
-░░░░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒░░  ░▒░░░▒▒▒▒▒░░░░░░▒▓██▓▓▓▓   Tools: Git, Docker, Linux
-░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒░░▒░░░▒▒▒▒▒░░░░░░▒▓██▓▓▓▓   Editor: VS Code (Dark Mode)
-░░░░░░░░░░░░░░░░░░░▓█████▓▓▓▓▓██▓▓▓▓▓░░░░▒▒▒▒▒▒▒░░░░░░▒▓██████   Location: Prague, CZ
-░░░░░░░░░░░░░░░░▒▒▒▓██████▓▒▓▓▓▓▓▒▓▒▒░ ░▒▒▒▒▒▒▒▒░░░░░░▒▓██████   Uptime: 1+ years of coding
-░░░░░░░░░░░░░░░░░█▓▒▓▓████▓▓▒▒▒▓▓▓▒▒░░░░▒░░▒▒▒▒▒░░░░░░▒▓██████   Currently: Building Star VCS
-░░░░░░░░░░░░░░░░░▒▓▒▓▓▓▓█▓▓▓▒▒▒▓▓▓▒▒░░░░░░░▒▒▒▒▒░░░░░░▒▓██████   Contact: hluskojakub@outlook.com
-░░░░░░░░░░░░░░░░░░░▒▒▓▓▓▓▓█▓▓▓▓▒▓▓▒▒░░░░░░░▒▒▒▒▒░░░░░░▒▓██████   ─────────────────
-░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓███▓▓▓▒▒▓▒▒░░░░░░░▒▒▒▒▒░░░░░░▒▓██████   🟥🟩🟨🟦🟪🟧⬛⬜
-░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▒▒░▒░░░░░░░░░▒▒▒▒░░░░░░▒▓██████
-░░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▒▒░░▒▒░░░░▒░░ ░░░░░░░░░▒▓██████
-░▒▒▒▒░░░░░░░░░░░▒▒▒▒▓▒▓▒▓▓▓▓███▓▓▓▒▒░░░░░░░░░░░░░░░░░░░▒▒▒▓███
-▒▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒▒▒▓▒▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░▒░░░░░░░░ ░░▒█
-▒▒▒▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░░░▒▒░▒░▒░░░░░  ░
-▒▒▒▒▒▒░▒▒▒▒▒░░░░▒░░▒▒▒░▒▒▒▒▒▓▓▓▓▓▒▒▒▒▒░░░░▒░░░░░▒▒▒░▒▒▒░░░░░░
-▒▒▒▒▒░▒▒░▒▒▒░░░▒░░░░▒▒░░▒▒░▒▒▒▒▒▒░░░░░░░░░▒░░░░░▒▒▒▒▒░▒░░░░░░░
-▒▒▒▒░▒▒▒▒░░▒░░░░░░░░▒▒░░░▒▒░░░░░░░░░░░░░░▒▒░░░░░▒▒░▒▒░▒░░░▒░░░
-▒▒▒░▒▒▒▒▒▒░▒▒░░░░░░░░▒▒░░░▒▒░░░░░░░▒░░░░░▒░ ░░░░▒░░▒▒░▒░▒▒░░░░
-▒▒░▒▒▒▒▒░░▒░░▒▒ ░░░░░▒▒░░░░▒▒░░░░▒▒░░░░░▒▒░░░░░░▒░░░▒▒▒▒▒▒▒░▒░
-▒▒▒▒▒▒▒░░░░▒░▒▒░░░░░░▒▒░░░░░▒▒▒░░░░░░▒░░▒░░░▒░░░░░░░░▒▒▒▒▒▒▒▒░
-
-└─$ █
-
-```
+</div>
 
 <div align="center">
 
@@ -63,28 +24,32 @@
 
 </div>
 
+<br/>
 
 <div align="center">
+
 <img src="./profile/streak.svg" alt="GitHub Streak" height="165"/>
 <img src="./profile/top-langs.svg" alt="Top Languages" height="165"/>
+
 </div>
+
 <br/>
+
 <div align="center">
+
+<img src="https://skillicons.dev/icons?i=cs,python,go,html,css,git,docker,vscode&theme=dark" alt="tech stack icons" />
 
 </div>
 
+<br/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,cs,dotnet,docker,git,linux,vscode,figma&theme=dark" alt="tech stack icons" />
-
-</div>
-
-<div align="center">
 <a href="https://linkedin.com/in/jakub-hluško-639202366/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:hluskojakub@eoutlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:hluskojakub@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://luckeris.github.io/portfolio"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=luckeris&style=for-the-badge&color=00FF9C&label=PROFILE+VIEWS" alt="profile views" />
 
