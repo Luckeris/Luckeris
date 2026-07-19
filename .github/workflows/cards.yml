@@ -21,7 +21,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&theme=synthwave&hide_border=true&count_private=true"
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_border=true&count_private=true&bg_color=060807&title_color=39ff9c&icon_color=39ff9c&text_color=d6ffe9&border_color=1a2b22"
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -29,14 +29,14 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: top-langs
-          options: "username=${{ github.repository_owner }}&layout=compact&theme=synthwave&hide_border=true"
+          options: "username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=060807&title_color=39ff9c&text_color=d6ffe9&border_color=1a2b22"
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate streak stats card
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: "user=${{ github.repository_owner }}&theme=synthwave&hide_border=true"
+          options: "user=${{ github.repository_owner }}&hide_border=true&background=060807&border=1a2b22&stroke=39ff9c&ring=39ff9c&fire=39ff9c&currStreakNum=eafff4&sideNums=eafff4&currStreakLabel=4fcf8f&sideLabels=4fcf8f&dates=3c6153"
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
