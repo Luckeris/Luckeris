@@ -2,23 +2,43 @@
 <defs>
   <clipPath id="cmdClip"><rect id="cmdClipRect" x="0" y="0" width="0" height="20"/></clipPath>
   <clipPath id="asciiClip"><rect id="asciiClipRect" x="0" y="0" width="0" height="347.2"/></clipPath>
+  <clipPath id="cardClip"><rect x="1" y="1" width="788" height="517" rx="14"/></clipPath>
   <linearGradient id="chromeGrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#161b22"/>
-    <stop offset="1" stop-color="#10141a"/>
+    <stop offset="0" stop-color="#0f1512"/>
+    <stop offset="1" stop-color="#0a0e0b"/>
   </linearGradient>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+    <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#00ff9c" stroke-width="0.5" opacity="0.06"/>
+  </pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="2" fill="#000000" opacity="0.10"/>
+  </pattern>
+  <radialGradient id="vignette" cx="50%" cy="40%" r="75%">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="80%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+  </radialGradient>
+  <filter id="softglow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="1.1" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
 </defs>
 <style>
-  .bg { fill:#0d1117; }
-  .win { fill:#0d1117; stroke:#21262d; stroke-width:1; }
-  .ascii { fill:#00FF9C; font-size:11px; white-space:pre; }
-  .k { fill:#ff7ac6; font-size:13px; }
-  .v { fill:#d8d8f0; font-size:13px; }
-  .prompt-user { fill:#7cf9ff; font-size:13px; font-weight:600; }
-  .prompt-sep { fill:#615b82; font-size:13px; }
-  .prompt-path { fill:#ff7ac6; font-size:13px; }
-  .prompt-sym { fill:#00FF9C; font-size:13px; }
-  .cmd { fill:#f1f1f8; font-size:13px; }
-  .dim { fill:#615b82; font-size:11px; }
+  .bg { fill:#060807; }
+  .win { fill:#060807; stroke:#1a2b22; stroke-width:1; }
+  .ascii { fill:#39ff9c; font-size:11px; white-space:pre; filter:url(#softglow); }
+  .k { fill:#4fcf8f; font-size:13px; }
+  .v { fill:#d6ffe9; font-size:13px; }
+  .prompt-user { fill:#39ff9c; font-size:13px; font-weight:600; }
+  .prompt-sep { fill:#3c6153; font-size:13px; }
+  .prompt-path { fill:#4fcf8f; font-size:13px; }
+  .prompt-sym { fill:#39ff9c; font-size:13px; }
+  .cmd { fill:#eafff4; font-size:13px; }
+  .dim { fill:#3c6153; font-size:11px; }
+  .glow { filter:url(#softglow); }
 
   #asciiClipRect { animation: asciiWipe 10.0s linear infinite; }
   @keyframes asciiWipe {
@@ -47,6 +67,53 @@
     70%  { opacity:0; }
     71%  { opacity:1; }
     100% { opacity:1; }
+  }
+
+  .scanline { animation: scanmove 6s linear infinite; }
+  @keyframes scanmove { 0% { transform:translateY(-100%); } 100% { transform:translateY(100%); } }
+
+  .glitch-red, .glitch-cyan { opacity:0; }
+  .glitch-red  { fill:#ff2b54; animation: glitchRed 10.0s linear infinite; }
+  .glitch-cyan { fill:#00e5ff; animation: glitchCyan 10.0s linear infinite; }
+  @keyframes glitchRed {
+    0%,20.9%  { opacity:0; transform:translate(0,0); }
+    21%       { opacity:.75; transform:translate(-2.5px,0); }
+    21.6%     { opacity:0; transform:translate(0,0); }
+    21.8%     { opacity:.6; transform:translate(2px,0); }
+    22.1%,54.9% { opacity:0; transform:translate(0,0); }
+    55%       { opacity:.7; transform:translate(2.5px,0); }
+    55.5%     { opacity:0; transform:translate(0,0); }
+    82.9%     { opacity:0; }
+    83%       { opacity:.7; transform:translate(-2px,0); }
+    83.4%     { opacity:0; transform:translate(0,0); }
+    100%      { opacity:0; }
+  }
+  @keyframes glitchCyan {
+    0%,20.9%  { opacity:0; transform:translate(0,0); }
+    21%       { opacity:.75; transform:translate(2.5px,0); }
+    21.6%     { opacity:0; transform:translate(0,0); }
+    21.8%     { opacity:.6; transform:translate(-2px,0); }
+    22.1%,54.9% { opacity:0; transform:translate(0,0); }
+    55%       { opacity:.7; transform:translate(-2.5px,0); }
+    55.5%     { opacity:0; transform:translate(0,0); }
+    82.9%     { opacity:0; }
+    83%       { opacity:.7; transform:translate(2px,0); }
+    83.4%     { opacity:0; transform:translate(0,0); }
+    100%      { opacity:0; }
+  }
+  .glitch-jitter { animation: glitchJitter 10.0s linear infinite; }
+  @keyframes glitchJitter {
+    0%,20.9% { transform:translate(0,0); }
+    21%      { transform:translate(1.5px,0); }
+    21.3%    { transform:translate(-1px,0); }
+    21.6%    { transform:translate(0,0); }
+    54.9%    { transform:translate(0,0); }
+    55%      { transform:translate(-1.5px,0); }
+    55.3%    { transform:translate(0,0); }
+    82.9%    { transform:translate(0,0); }
+    83%      { transform:translate(1px,0); }
+    83.3%    { transform:translate(0,0); }
+    100%     { transform:translate(0,0); }
   }
 
   .info0 { opacity:0; animation: info0fade 10.0s linear infinite; }
@@ -141,16 +208,23 @@
 
 <rect class="bg" width="790" height="519" rx="14"/>
 <rect class="win" x="1" y="1" width="788" height="517" rx="14"/>
+<g clip-path="url(#cardClip)">
+<rect x="1" y="1" width="788" height="517" fill="url(#grid)"/>
+<rect x="1" y="1" width="788" height="517" fill="url(#scan)"/>
+<rect class="scanline" x="1" y="-519" width="788" height="93" fill="#39ff9c" opacity="0.05"/>
+<rect x="1" y="1" width="788" height="517" fill="url(#vignette)"/>
+</g>
 <rect x="1" y="1" width="788" height="34" rx="14" fill="url(#chromeGrad)"/>
 <rect x="1" y="21" width="788" height="13" fill="url(#chromeGrad)"/>
+<rect x="1" y="33" width="788" height="1" fill="#153025"/>
 <circle cx="22" cy="18.0" r="6" fill="#ff5f57"/>
 <circle cx="42" cy="18.0" r="6" fill="#febc2e"/>
 <circle cx="62" cy="18.0" r="6" fill="#28c840"/>
-<text x="395.0" y="22.0" text-anchor="middle" class="dim">Luckeris@github: ~</text>
-<text x="24" y="71" font-size="13"><tspan class="prompt-sep">┌──(</tspan><tspan class="prompt-user">Luckeris</tspan><tspan class="prompt-sep">㉿</tspan><tspan class="prompt-path">github</tspan><tspan class="prompt-sep">)-[~]</tspan></text>
+<g><text x="395.0" y="22.0" text-anchor="middle" class="dim">Luckeris@github: ~</text><text class="glitch-red" x="395.0" y="22.0" text-anchor="middle" font-size="11">Luckeris@github: ~</text><text class="glitch-cyan" x="395.0" y="22.0" text-anchor="middle" font-size="11">Luckeris@github: ~</text></g>
+<g class="glitch-jitter"><text x="24" y="71" font-size="13"><tspan class="prompt-sep">┌──(</tspan><tspan class="prompt-user">Luckeris</tspan><tspan class="prompt-sep">㉿</tspan><tspan class="prompt-path">github</tspan><tspan class="prompt-sep">)-[~]</tspan></text></g>
 <text x="24" y="94" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan></text>
 <g clip-path="url(#cmdClip)"><text x="52" y="94" class="cmd">fastfetch --photo me.jpg</text></g>
-<rect class="cursor1" x="222.39999999999998" y="82" width="7" height="14" fill="#00FF9C"/>
+<rect class="cursor1" x="222.39999999999998" y="82" width="7" height="14" fill="#39ff9c"/>
 <g transform="translate(24,116)">
 <g clip-path="url(#asciiClip)"><text class="ascii" xml:space="preserve">
 <tspan x="0" y="11.2">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒▒▓▓▒▒░░░░░▒▓███▓▓▓</tspan>
@@ -181,8 +255,8 @@
 <tspan x="0" y="341.2">▒▒▒▒▒▒▒░░░░▒░▒▒░░░░░░▒▒░░░░░▒▒▒░░░░░░▒░░▒░░░▒░░░░░░░░▒▒▒▒▒▒▒▒░</tspan>
 </text></g></g>
 <g transform="translate(516.5999999999999,116)">
-<text class="k info_header" y="12" font-size="14" fill="#00FF9C">Luckeris@github</text>
-<line x1="0" y1="20" x2="230" y2="20" stroke="#21262d" stroke-width="1"/>
+<g><text y="12" font-size="14" fill="#39ff9c">Luckeris@github</text><text class="glitch-red" y="12" font-size="14">Luckeris@github</text><text class="glitch-cyan" y="12" font-size="14">Luckeris@github</text></g>
+<line x1="0" y1="20" x2="230" y2="20" stroke="#1a2b22" stroke-width="1"/>
 <g class="info0"><text y="41"><tspan class="k">OS: </tspan><tspan class="v">Human.exe</tspan></text></g>
 <g class="info1"><text y="62"><tspan class="k">Host: </tspan><tspan class="v">Planet Earth</tspan></text></g>
 <g class="info2"><text y="83"><tspan class="k">Role: </tspan><tspan class="v">Student &amp; Developer</tspan></text></g>
@@ -194,15 +268,15 @@
 <g class="info8"><text y="209"><tspan class="k">Uptime: </tspan><tspan class="v">1+ years of coding</tspan></text></g>
 <g class="info9"><text y="230"><tspan class="k">Currently: </tspan><tspan class="v">Building Star VCS</tspan></text></g>
 <g class="info10"><text y="251"><tspan class="k">Contact: </tspan><tspan class="v">hluskojakub@outlook.com</tspan></text></g>
-<rect class="info10" x="0" y="278" width="13" height="13" rx="2" fill="#ff5f57"/>
-<rect class="info10" x="17" y="278" width="13" height="13" rx="2" fill="#28c840"/>
-<rect class="info10" x="34" y="278" width="13" height="13" rx="2" fill="#febc2e"/>
-<rect class="info10" x="51" y="278" width="13" height="13" rx="2" fill="#5b8cff"/>
-<rect class="info10" x="68" y="278" width="13" height="13" rx="2" fill="#c86bff"/>
-<rect class="info10" x="85" y="278" width="13" height="13" rx="2" fill="#ff7ac6"/>
-<rect class="info10" x="102" y="278" width="13" height="13" rx="2" fill="#3a3550"/>
-<rect class="info10" x="119" y="278" width="13" height="13" rx="2" fill="#e8e8f5"/>
+<rect class="info10" x="0" y="278" width="13" height="13" rx="2" fill="#0d3325"/>
+<rect class="info10" x="17" y="278" width="13" height="13" rx="2" fill="#155b3c"/>
+<rect class="info10" x="34" y="278" width="13" height="13" rx="2" fill="#1f8556"/>
+<rect class="info10" x="51" y="278" width="13" height="13" rx="2" fill="#39ff9c"/>
+<rect class="info10" x="68" y="278" width="13" height="13" rx="2" fill="#8fffce"/>
+<rect class="info10" x="85" y="278" width="13" height="13" rx="2" fill="#d6ffe9"/>
+<rect class="info10" x="102" y="278" width="13" height="13" rx="2" fill="#0a0e0b"/>
+<rect class="info10" x="119" y="278" width="13" height="13" rx="2" fill="#eafff4"/>
 </g>
 <text x="24" y="495.2" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan></text>
-<rect class="cursor2" x="46" y="483.2" width="7" height="14" fill="#00FF9C"/>
+<rect class="cursor2" x="46" y="483.2" width="7" height="14" fill="#39ff9c"/>
 </svg>
