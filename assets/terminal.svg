@@ -1,8 +1,8 @@
-<svg viewBox="0 0 790 519" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace">
+<svg viewBox="0 0 790 637" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace">
 <defs>
   <clipPath id="cmdClip"><rect id="cmdClipRect" x="0" y="0" width="0" height="20"/></clipPath>
   <clipPath id="asciiClip"><rect id="asciiClipRect" x="0" y="0" width="0" height="347.2"/></clipPath>
-  <clipPath id="cardClip"><rect x="1" y="1" width="788" height="517" rx="14"/></clipPath>
+  <clipPath id="cardClip"><rect x="1" y="1" width="788" height="635" rx="14"/></clipPath>
   <linearGradient id="chromeGrad" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#0f1512"/>
     <stop offset="1" stop-color="#0a0e0b"/>
@@ -60,12 +60,12 @@
   @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
   @keyframes blink2 {
     0%   { opacity:0; }
-    58%  { opacity:0; }
-    59%  { opacity:1; }
-    64%  { opacity:0; }
-    65%  { opacity:1; }
-    70%  { opacity:0; }
-    71%  { opacity:1; }
+    85%  { opacity:0; }
+    86%  { opacity:1; }
+    90%  { opacity:0; }
+    91%  { opacity:1; }
+    95%  { opacity:0; }
+    96%  { opacity:1; }
     100% { opacity:1; }
   }
 
@@ -206,13 +206,77 @@
 
 </style>
 
-<rect class="bg" width="790" height="519" rx="14"/>
-<rect class="win" x="1" y="1" width="788" height="517" rx="14"/>
+<style>  .chip0 { opacity:0; animation: chip0fade 10.0s linear infinite; }
+  @keyframes chip0fade {
+    0% { opacity:0; }
+    58.0% { opacity:0; }
+    59.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .chip1 { opacity:0; animation: chip1fade 10.0s linear infinite; }
+  @keyframes chip1fade {
+    0% { opacity:0; }
+    60.0% { opacity:0; }
+    61.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .chip2 { opacity:0; animation: chip2fade 10.0s linear infinite; }
+  @keyframes chip2fade {
+    0% { opacity:0; }
+    62.0% { opacity:0; }
+    63.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .chip3 { opacity:0; animation: chip3fade 10.0s linear infinite; }
+  @keyframes chip3fade {
+    0% { opacity:0; }
+    64.0% { opacity:0; }
+    65.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .chip4 { opacity:0; animation: chip4fade 10.0s linear infinite; }
+  @keyframes chip4fade {
+    0% { opacity:0; }
+    66.0% { opacity:0; }
+    67.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .chip5 { opacity:0; animation: chip5fade 10.0s linear infinite; }
+  @keyframes chip5fade {
+    0% { opacity:0; }
+    68.0% { opacity:0; }
+    69.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .chip6 { opacity:0; animation: chip6fade 10.0s linear infinite; }
+  @keyframes chip6fade {
+    0% { opacity:0; }
+    70.0% { opacity:0; }
+    71.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .chip7 { opacity:0; animation: chip7fade 10.0s linear infinite; }
+  @keyframes chip7fade {
+    0% { opacity:0; }
+    72.0% { opacity:0; }
+    73.5% { opacity:1; }
+    100% { opacity:1; }
+  }
+  .echo { opacity:0; animation: echofade 10.0s linear infinite; }
+  @keyframes echofade {
+    0% { opacity:0; }
+    77% { opacity:0; }
+    79% { opacity:1; }
+    100% { opacity:1; }
+  }
+</style>
+<rect class="bg" width="790" height="637" rx="14"/>
+<rect class="win" x="1" y="1" width="788" height="635" rx="14"/>
 <g clip-path="url(#cardClip)">
-<rect x="1" y="1" width="788" height="517" fill="url(#grid)"/>
-<rect x="1" y="1" width="788" height="517" fill="url(#scan)"/>
-<rect class="scanline" x="1" y="-519" width="788" height="93" fill="#39ff9c" opacity="0.05"/>
-<rect x="1" y="1" width="788" height="517" fill="url(#vignette)"/>
+<rect x="1" y="1" width="788" height="635" fill="url(#grid)"/>
+<rect x="1" y="1" width="788" height="635" fill="url(#scan)"/>
+<rect class="scanline" x="1" y="-637" width="788" height="115" fill="#39ff9c" opacity="0.05"/>
+<rect x="1" y="1" width="788" height="635" fill="url(#vignette)"/>
 </g>
 <rect x="1" y="1" width="788" height="34" rx="14" fill="url(#chromeGrad)"/>
 <rect x="1" y="21" width="788" height="13" fill="url(#chromeGrad)"/>
@@ -277,6 +341,17 @@
 <rect class="info10" x="102" y="278" width="13" height="13" rx="2" fill="#0a0e0b"/>
 <rect class="info10" x="119" y="278" width="13" height="13" rx="2" fill="#eafff4"/>
 </g>
-<text x="24" y="495.2" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan></text>
-<rect class="cursor2" x="46" y="483.2" width="7" height="14" fill="#39ff9c"/>
+<text x="24" y="495.2" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan> <tspan class="prompt-path" dx="6">skillicons</tspan><tspan class="cmd"> --stack</tspan></text>
+<g class="chip0"><rect x="24" y="521.2" width="43" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="46" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">C#</text></g>
+<g class="chip1"><rect x="77.2" y="521.2" width="74" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="114" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">Python</text></g>
+<g class="chip2"><rect x="160.8" y="521.2" width="43" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="182" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">Go</text></g>
+<g class="chip3"><rect x="214.0" y="521.2" width="58" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="243" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">HTML</text></g>
+<g class="chip4"><rect x="282.4" y="521.2" width="51" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="308" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">CSS</text></g>
+<g class="chip5"><rect x="343.2" y="521.2" width="51" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="369" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">Git</text></g>
+<g class="chip6"><rect x="404.0" y="521.2" width="74" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="441" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">Docker</text></g>
+<g class="chip7"><rect x="487.6" y="521.2" width="81" height="22" rx="5" fill="#0a120e" stroke="#1f8556" stroke-width="1"/><text x="528" y="536.2" text-anchor="middle" font-size="12" fill="#8fffce">VS Code</text></g>
+<text x="24" y="569.2" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan> <tspan class="cmd" dx="6">echo "thanks for stopping by"</tspan></text>
+<g class="echo"><text x="24" y="589.2" font-size="13"><tspan class="prompt-sep">&gt; </tspan><tspan class="v">thanks for stopping by</tspan></text></g>
+<text x="24" y="613.2" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan></text>
+<rect class="cursor2" x="46" y="601.2" width="7" height="14" fill="#39ff9c"/>
 </svg>
