@@ -1,0 +1,199 @@
+<svg viewBox="0 0 790 519" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace">
+<defs>
+  <clipPath id="cmdClip"><rect id="cmdClipRect" x="0" y="0" width="0" height="20"/></clipPath>
+  <clipPath id="asciiClip"><rect id="asciiClipRect" x="0" y="0" width="0" height="347.2"/></clipPath>
+  <linearGradient id="chromeGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2b2640"/>
+    <stop offset="1" stop-color="#201c30"/>
+  </linearGradient>
+</defs>
+<style>
+  .bg { fill:#14111f; }
+  .win { fill:#100d19; stroke:#332e4d; stroke-width:1; }
+  .ascii { fill:#00FF9C; font-size:11px; white-space:pre; }
+  .k { fill:#ff7ac6; font-size:13px; }
+  .v { fill:#d8d8f0; font-size:13px; }
+  .prompt-user { fill:#7cf9ff; font-size:13px; font-weight:600; }
+  .prompt-sep { fill:#615b82; font-size:13px; }
+  .prompt-path { fill:#ff7ac6; font-size:13px; }
+  .prompt-sym { fill:#00FF9C; font-size:13px; }
+  .cmd { fill:#f1f1f8; font-size:13px; }
+  .dim { fill:#615b82; font-size:11px; }
+
+  #asciiClipRect { animation: asciiWipe 10.0s linear infinite; }
+  @keyframes asciiWipe {
+    0%   { width:0; }
+    16%  { width:456.59999999999997px; }
+    30%  { width:456.59999999999997px; }
+    100% { width:456.59999999999997px; }
+  }
+
+  #cmdClipRect { animation: cmdType 10.0s steps(30,end) infinite; }
+  @keyframes cmdType {
+    0%   { width:0; }
+    12%  { width:330px; }
+    100% { width:330px; }
+  }
+
+  .cursor1 { animation: blink 1s steps(1,end) infinite; }
+  .cursor2 { animation: blink2 10.0s steps(1,end) infinite; }
+  @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+  @keyframes blink2 {
+    0%   { opacity:0; }
+    58%  { opacity:0; }
+    59%  { opacity:1; }
+    64%  { opacity:0; }
+    65%  { opacity:1; }
+    70%  { opacity:0; }
+    71%  { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info0 { opacity:0; animation: info0fade 10.0s linear infinite; }
+  @keyframes info0fade {
+    0% { opacity:0; }
+    32.0% { opacity:0; }
+    34.0% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info1 { opacity:0; animation: info1fade 10.0s linear infinite; }
+  @keyframes info1fade {
+    0% { opacity:0; }
+    34.4% { opacity:0; }
+    36.4% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info2 { opacity:0; animation: info2fade 10.0s linear infinite; }
+  @keyframes info2fade {
+    0% { opacity:0; }
+    36.8% { opacity:0; }
+    38.8% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info3 { opacity:0; animation: info3fade 10.0s linear infinite; }
+  @keyframes info3fade {
+    0% { opacity:0; }
+    39.2% { opacity:0; }
+    41.2% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info4 { opacity:0; animation: info4fade 10.0s linear infinite; }
+  @keyframes info4fade {
+    0% { opacity:0; }
+    41.6% { opacity:0; }
+    43.6% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info5 { opacity:0; animation: info5fade 10.0s linear infinite; }
+  @keyframes info5fade {
+    0% { opacity:0; }
+    44.0% { opacity:0; }
+    46.0% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info6 { opacity:0; animation: info6fade 10.0s linear infinite; }
+  @keyframes info6fade {
+    0% { opacity:0; }
+    46.4% { opacity:0; }
+    48.4% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info7 { opacity:0; animation: info7fade 10.0s linear infinite; }
+  @keyframes info7fade {
+    0% { opacity:0; }
+    48.8% { opacity:0; }
+    50.8% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info8 { opacity:0; animation: info8fade 10.0s linear infinite; }
+  @keyframes info8fade {
+    0% { opacity:0; }
+    51.2% { opacity:0; }
+    53.2% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+  .info9 { opacity:0; animation: info9fade 10.0s linear infinite; }
+  @keyframes info9fade {
+    0% { opacity:0; }
+    53.6% { opacity:0; }
+    55.6% { opacity:1; }
+    100% { opacity:1; }
+  }
+
+</style>
+
+<rect class="bg" width="790" height="519" rx="14"/>
+<rect class="win" x="1" y="1" width="788" height="517" rx="14"/>
+<rect x="1" y="1" width="788" height="34" rx="14" fill="url(#chromeGrad)"/>
+<rect x="1" y="21" width="788" height="13" fill="url(#chromeGrad)"/>
+<circle cx="22" cy="18.0" r="6" fill="#ff5f57"/>
+<circle cx="42" cy="18.0" r="6" fill="#febc2e"/>
+<circle cx="62" cy="18.0" r="6" fill="#28c840"/>
+<text x="395.0" y="22.0" text-anchor="middle" class="dim">Luckeris@github: ~</text>
+<text x="24" y="71" font-size="13"><tspan class="prompt-sep">┌──(</tspan><tspan class="prompt-user">Luckeris</tspan><tspan class="prompt-sep">㉿</tspan><tspan class="prompt-path">github</tspan><tspan class="prompt-sep">)-[~]</tspan></text>
+<text x="24" y="94" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan></text>
+<g clip-path="url(#cmdClip)"><text x="52" y="94" class="cmd">fastfetch --photo me.jpg</text></g>
+<rect class="cursor1" x="222.39999999999998" y="82" width="7" height="14" fill="#00FF9C"/>
+<g transform="translate(24,116)">
+<g clip-path="url(#asciiClip)"><text class="ascii" xml:space="preserve">
+<tspan x="0" y="11.2">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒▒▓▓▒▒░░░░░▒▓███▓▓▓</tspan>
+<tspan x="0" y="24.4">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▒▒▒▒░░░░░░░░░░░░▒▒▒▒▓▓▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="37.599999999999994">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▒▓▓████████▓▓▒░░░░░░░░▒▒▒▒▓▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="50.8">▒▒▒▒▒▒▒▒▒▒▒░░░░░░░▒▓██████████████▓▓▒░░░░░▒▒▒▒▓▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="64.0">▒▒▒▒▒▒▒▒░░░░░░░░▒███████████▓▓▓▒▒▓▓▓▓▓░░░░▒▒▒▒▓▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="77.19999999999999">▒▒▒▒▒▒▒░░░░░░░░░▓████████▓▓▓▓▒▒▒░░░░▒▓▓░░░░▒▒▒▓▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="90.39999999999999">▒▒▒▒▒░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒░░░░░▒▒░░░▒▒▒▒▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="103.6">░░░░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒░░  ░▒░░░▒▒▒▒▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="116.8">░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒░░▒░░░▒▒▒▒▒░░░░░░▒▓██▓▓▓▓</tspan>
+<tspan x="0" y="130.0">░░░░░░░░░░░░░░░░░░░▓█████▓▓▓▓▓██▓▓▓▓▓░░░░▒▒▒▒▒▒▒░░░░░░▒▓██████</tspan>
+<tspan x="0" y="143.2">░░░░░░░░░░░░░░░░▒▒▒▓██████▓▒▓▓▓▓▓▒▓▒▒░ ░▒▒▒▒▒▒▒▒░░░░░░▒▓██████</tspan>
+<tspan x="0" y="156.39999999999998">░░░░░░░░░░░░░░░░░█▓▒▓▓████▓▓▒▒▒▓▓▓▒▒░░░░▒░░▒▒▒▒▒░░░░░░▒▓██████</tspan>
+<tspan x="0" y="169.6">░░░░░░░░░░░░░░░░░▒▓▒▓▓▓▓█▓▓▓▒▒▒▓▓▓▒▒░░░░░░░▒▒▒▒▒░░░░░░▒▓██████</tspan>
+<tspan x="0" y="182.79999999999998">░░░░░░░░░░░░░░░░░░░▒▒▓▓▓▓▓█▓▓▓▓▒▓▓▒▒░░░░░░░▒▒▒▒▒░░░░░░▒▓██████</tspan>
+<tspan x="0" y="196.0">░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓███▓▓▓▒▒▓▒▒░░░░░░░▒▒▒▒▒░░░░░░▒▓██████</tspan>
+<tspan x="0" y="209.2">░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▒▒░▒░░░░░░░░░▒▒▒▒░░░░░░▒▓██████</tspan>
+<tspan x="0" y="222.39999999999998">░░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓▓▓▓▒▒░░▒▒░░░░▒░░ ░░░░░░░░░▒▓██████</tspan>
+<tspan x="0" y="235.6">░▒▒▒▒░░░░░░░░░░░▒▒▒▒▓▒▓▒▓▓▓▓███▓▓▓▒▒░░░░░░░░░░░░░░░░░░░▒▒▒▓███</tspan>
+<tspan x="0" y="248.79999999999998">▒▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒▒▒▓▒▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░▒░░░░░░░░ ░░▒█</tspan>
+<tspan x="0" y="262.0">▒▒▒▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░░░▒▒░▒░▒░░░░░  ░</tspan>
+<tspan x="0" y="275.2">▒▒▒▒▒▒░▒▒▒▒▒░░░░▒░░▒▒▒░▒▒▒▒▒▓▓▓▓▓▒▒▒▒▒░░░░▒░░░░░▒▒▒░▒▒▒░░░░░░ </tspan>
+<tspan x="0" y="288.4">▒▒▒▒▒░▒▒░▒▒▒░░░▒░░░░▒▒░░▒▒░▒▒▒▒▒▒░░░░░░░░░▒░░░░░▒▒▒▒▒░▒░░░░░░░</tspan>
+<tspan x="0" y="301.59999999999997">▒▒▒▒░▒▒▒▒░░▒░░░░░░░░▒▒░░░▒▒░░░░░░░░░░░░░░▒▒░░░░░▒▒░▒▒░▒░░░▒░░░</tspan>
+<tspan x="0" y="314.79999999999995">▒▒▒░▒▒▒▒▒▒░▒▒░░░░░░░░▒▒░░░▒▒░░░░░░░▒░░░░░▒░ ░░░░▒░░▒▒░▒░▒▒░░░░</tspan>
+<tspan x="0" y="328.0">▒▒░▒▒▒▒▒░░▒░░▒▒ ░░░░░▒▒░░░░▒▒░░░░▒▒░░░░░▒▒░░░░░░▒░░░▒▒▒▒▒▒▒░▒░</tspan>
+<tspan x="0" y="341.2">▒▒▒▒▒▒▒░░░░▒░▒▒░░░░░░▒▒░░░░░▒▒▒░░░░░░▒░░▒░░░▒░░░░░░░░▒▒▒▒▒▒▒▒░</tspan>
+</text></g></g>
+<g transform="translate(516.5999999999999,116)">
+<text class="k info_header" y="12" font-size="14" fill="#00FF9C">Luckeris@github</text>
+<line x1="0" y1="20" x2="230" y2="20" stroke="#332e4d" stroke-width="1"/>
+<g class="info0"><text y="41"><tspan class="k">OS: </tspan><tspan class="v">Human.exe</tspan></text></g>
+<g class="info1"><text y="62"><tspan class="k">Host: </tspan><tspan class="v">Planet Earth</tspan></text></g>
+<g class="info2"><text y="83"><tspan class="k">Role: </tspan><tspan class="v">Student &amp; Developer</tspan></text></g>
+<g class="info3"><text y="104"><tspan class="k">Languages: </tspan><tspan class="v">C#, Python, Go</tspan></text></g>
+<g class="info4"><text y="125"><tspan class="k">Web: </tspan><tspan class="v">HTML, CSS</tspan></text></g>
+<g class="info5"><text y="146"><tspan class="k">Tools: </tspan><tspan class="v">Git, Docker</tspan></text></g>
+<g class="info6"><text y="167"><tspan class="k">Editor: </tspan><tspan class="v">VS Code</tspan></text></g>
+<g class="info7"><text y="188"><tspan class="k">Location: </tspan><tspan class="v">Prague, CZ</tspan></text></g>
+<g class="info8"><text y="209"><tspan class="k">Currently: </tspan><tspan class="v">Building cool stuff</tspan></text></g>
+<g class="info9"><text y="230"><tspan class="k">Contact: </tspan><tspan class="v">kluskojakub@outlook.com</tspan></text></g>
+<rect class="info9" x="0" y="257" width="13" height="13" rx="2" fill="#ff5f57"/>
+<rect class="info9" x="17" y="257" width="13" height="13" rx="2" fill="#28c840"/>
+<rect class="info9" x="34" y="257" width="13" height="13" rx="2" fill="#febc2e"/>
+<rect class="info9" x="51" y="257" width="13" height="13" rx="2" fill="#5b8cff"/>
+<rect class="info9" x="68" y="257" width="13" height="13" rx="2" fill="#c86bff"/>
+<rect class="info9" x="85" y="257" width="13" height="13" rx="2" fill="#ff7ac6"/>
+<rect class="info9" x="102" y="257" width="13" height="13" rx="2" fill="#3a3550"/>
+<rect class="info9" x="119" y="257" width="13" height="13" rx="2" fill="#e8e8f5"/>
+</g>
+<text x="24" y="495.2" font-size="13"><tspan class="prompt-sep">└─</tspan><tspan class="prompt-sym">$</tspan></text>
+<rect class="cursor2" x="46" y="483.2" width="7" height="14" fill="#00FF9C"/>
+</svg>
