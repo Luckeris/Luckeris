@@ -38,7 +38,4 @@
 <a href="https://luckeris.github.io/portfolio"><img src="https://img.shields.io/badge/Website-0d3325?style=for-the-badge&logo=vercel&logoColor=39ff9c" /></a>
 
 <br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=luckeris&style=for-the-badge&color=0d3325&label=PROFILE+VIEWS&labelColor=060807" alt="profile views" />
-
 </div>
